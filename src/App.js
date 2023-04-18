@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNav from "./myComponents/MyNav";
+import "./index.css";
+import MyCarousel from './myComponents/MyCarousel';
+import CompText from './myComponents/CompText';
+import TourDates from './myComponents/TourDates';
+import Contact from './myComponents/Contact';
+import Map from './myComponents/Map';
+import Footer from './myComponents/Footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+        <MyNav/>
+
+        <MyCarousel/>
+
+        <CompText/>
+
+        <TourDates/>
+
+        <Contact className="contactContainer"/>
+
+        <Map/>
+
+        <Footer/>
     </div>
-  );
+
+  )
 }
 
 export default App;

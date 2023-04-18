@@ -1,0 +1,64 @@
+.navHome{
+    border:1px solid #fff;
+    padding-left:14px
+}
+.nav:hover{
+    border:1px solid #fff;
+}
+.navbar-toggler-icon{
+    background-color: #F7F7F7;
+    border-radius:5px;
+}
+.carousel-indicators{
+    display:none;
+}
+.carousel-control-prev, .carousel-control-next{
+    display: none;
+}
+.tourP2{
+    color:#F7F7F7;
+}
+.badge3{
+    width:25px;
+    height:25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.contactContainer, .tourDate, .textComp{
+    width:80%;
+}
+.iconUl{
+    list-style: none;
+    display: flex;
+    gap:10px;
+
+}
+.iconUl li{
+    font-size:x-large
+}
+.cardImg{
+    height:400px;
+    object-fit: cover;
+}
+.footerIcon li{
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.footerIcon li:hover{
+    color:gold
+}
+@media only screen and (max-width:768px) {
+    .carouselCaption{
+        display: none;
+    }
+    .firstAndLast{
+        gap:17px;    
+    }
+
+    .contactContainer,.tourDate,.citiesCard, .textComp{
+        width:100%;
+    }
+
+}
